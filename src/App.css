@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+html, body, #root {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.hexagon-bg {
+    min-height: 100vh;
+    background-color: #fefefe;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='104'><defs><pattern id='hex' width='60' height='52' patternUnits='userSpaceOnUse'><polygon points='30,0 60,15 60,45 30,60 0,45 0,15' fill='none' stroke='rgba(0,0,0,0.05)' stroke-width='1'/></pattern></defs><rect width='120' height='104' fill='url(%23hex)'/><g transform='translate(30,26)'><rect width='120' height='104' fill='url(%23hex)'/></g></svg>");
+    background-repeat: repeat;
+    background-size: 120px 104px;
+
+    z-index: -1000;
+    position: fixed;
+}
