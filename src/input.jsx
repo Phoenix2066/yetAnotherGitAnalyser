@@ -17,10 +17,3 @@ function Input({username, setUsername, handleclick}){
 }
 
 export default Input;
-
-
-/*
-flex flex-col gap-2 p-8 sm:flex-row sm:items-center sm:gap-6 sm:py-4 ...
-mx-auto flex max-w-sm items-center gap-x-4 rounded-xl bg-white p-6 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10
-
-*/

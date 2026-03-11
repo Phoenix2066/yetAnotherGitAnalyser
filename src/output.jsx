@@ -1,5 +1,3 @@
-import React, {useState, useEffect} from 'react';
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub} from '@fortawesome/free-brands-svg-icons'
 import { faArrowsRotate } from '@fortawesome/free-solid-svg-icons'
@@ -65,43 +63,3 @@ function Output({username, userdata, handleclick, setUsername}) {
 }
 
 export default Output;
-
-//https://github-contributions-api.jogruber.de/v4/{username}
-/*
-{
-    "login": "Phoenix2066",
-    "id": 210047823,
-    "node_id": "U_kgDODIUTTw",
-    "avatar_url": "https://avatars.githubusercontent.com/u/210047823?v=4",
-    "gravatar_id": "",
-    "url": "https://api.github.com/users/Phoenix2066",
-    "html_url": "https://github.com/Phoenix2066",
-    "followers_url": "https://api.github.com/users/Phoenix2066/followers",
-    "following_url": "https://api.github.com/users/Phoenix2066/following{/other_user}",
-    "gists_url": "https://api.github.com/users/Phoenix2066/gists{/gist_id}",
-    "starred_url": "https://api.github.com/users/Phoenix2066/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/Phoenix2066/subscriptions",
-    "organizations_url": "https://api.github.com/users/Phoenix2066/orgs",
-    "repos_url": "https://api.github.com/users/Phoenix2066/repos",
-    "events_url": "https://api.github.com/users/Phoenix2066/events{/privacy}",
-    "received_events_url": "https://api.github.com/users/Phoenix2066/received_events",
-    "type": "User",
-    "user_view_type": "public",
-    "site_admin": false,
-    "name": "Prithvi R Koneri",
-    "company": null,
-    "blog": "",
-    "location": null,
-    "email": null,
-    "hireable": null,
-    "bio": null,
-    "twitter_username": null,
-    "public_repos": 8,
-    "public_gists": 0,
-    "followers": 0,
-    "following": 1,
-    "created_at": "2025-05-02T14:05:45Z",
-    "updated_at": "2026-03-07T13:33:02Z"
-} */
-
-    

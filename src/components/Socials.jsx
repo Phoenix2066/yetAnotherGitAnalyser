@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import {useState, useEffect} from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSquareXTwitter, faSquareLinkedin, faSquareYoutube, faSquareInstagram} from '@fortawesome/free-brands-svg-icons'
@@ -23,7 +23,6 @@ function Socials({username, userdata}){
     const blog = userdata.blog;
     const instagram = socialData.find(item => item.provider === "instagram");
 
-    // Then get the URL
     return(
         <div className='linkSection flex justify-evenly rounded-xl bg-white flex-row w-full h-[10vh] m-0 outline outline-black/5 items-center'>
             {linkedin && (

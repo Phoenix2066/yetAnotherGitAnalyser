@@ -1,5 +1,3 @@
-//url ->>   `https://api.github.com/users/${username}`  
-
 import { useState } from 'react'
 
 import Input from './input.jsx'
