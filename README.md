@@ -24,7 +24,7 @@ This project is a **GitHub Repo Viewer** built with React and Tailwind CSS. It f
 
 ## Features ##
 
-- View basic info of a user like the the user name, social links, a few quicklins and thier repositories.
+- View basic info of a user like the the user name, social links, a few quicklins and their repositories.
 - Clickable links to all the necessary sections
 - A little hover interactivity
 
