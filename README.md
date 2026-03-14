@@ -66,3 +66,8 @@ The app should now be running at http://localhost:3000/
 2. The app fetches all Github user data and gives a basic preview for the user data and repositories of the user along with a few quicklinks.
 3. Click on the links to navigate to the required page.
 
+---
+
+## Original Design
+<img width="1057" height="482" alt="image" src="https://github.com/user-attachments/assets/50df5d68-f65a-4432-84f2-6bcc6916cecb" />
+<img width="1051" height="485" alt="image" src="https://github.com/user-attachments/assets/3ca1bf1a-c117-44ea-9f28-a1391f2902cd" />
